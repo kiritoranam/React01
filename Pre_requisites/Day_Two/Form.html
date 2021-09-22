@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Html Forms</title>
+    </head>
+    <body>
+        
+        <form action="abx">
+            <p>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="Enter First Name" name="firstName">
+            </p>
+             
+            <p>
+                <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="Enter Last Name" name="lastName"><br>
+
+            </p>
+            <p>
+                <label for="contact">contact No</label>
+            <input type="tel" id="contact" placeholder="Enter Number" name="contact"><br>
+            </p>
+
+            <p>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+            </p>
+
+            <p>
+                <label for="textarea">Message</label>
+                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            </p>
+
+            <p>
+                <label for="country">Select country</label>
+                <select name="c" id="country">
+                    <option value="india" selected>India</option>
+                    <option value="america">America</option>
+                    <option value="Austrila">Austrila</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="gender">Select Gender</label>
+                <input type="radio" name="gender" id="gender"><label for="male">Male</label>
+                <input type="radio" name="gender" id="gender"><label for="female">female</label>
+            </p>
+
+            <p>
+              <fieldset>
+                  <label for="hobbies">select Hobbies</label>
+                  <input type="checkbox" name="hobbie" id="hobbies"><label for="circket">circket</label>
+                  <input type="checkbox" name="hobbie" id="hobbies"><label for="football">football</label>
+                  <input type="checkbox" name="hobbie" id="hobbies"><label for="singing">singing</label>
+              </fieldset>
+            </p>
+
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </body>
+</html>
