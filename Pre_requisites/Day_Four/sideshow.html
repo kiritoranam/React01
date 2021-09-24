@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Learning CSS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="..\Day_Four\s1.css">
+        <script type="text/javascript" src="..\Day_Four\jquery.js"></script>
+        <script type="text/javascript" src="..\Day_Four\cycle2.js"></script>
+        <script type="text/javascript" src="..\Day_Four\declarativeToggle.js"></script>
+	</head>
+	
+	<body>
+		
+		<header class="section">
+			
+			<!-- container -->
+			<div class="container">
+				<h1>Website Title</h1>
+				<p class="hide-small">Website slogan included here.</p>
+                <span data-toggle-target=".site-nav" class="toggle-btn">MENU</span>
+				<nav class="site-nav">
+					<ul class="group">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li class="hide-small"><a href="#">FAQs</a></li>
+						<li class="hide-small"><a href="#">Links</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div><!-- /container -->
+			
+		</header>
+		
+		<div class="content-area group section">
+			
+			<!-- container -->
+			<div class="container">
+				
+				<!-- row -->
+				<div class="row">
+					
+					<!-- col -->
+					<div class="col col-md-8 push-down-sm">
+						
+						<div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+
+                        <span class="cycle-prev">&lsaquo;</span>
+                        <span class="cycle-next">&rsaquo;</span>
+                        <span class="cycle-pager"></span>
+
+                            <div class="slide">
+                                <img src="..\Day_Four\squirrel.jpg" alt="">
+                                <div class="slide-text">
+                                    <h3>this is squirrel here..</h3>
+                                    <p>This is the squirrel description <a href="#" class="btn-a">Click To know</a></p>
+                                </div>    
+                            </div>
+                                <div class="slide">
+                                    <img src="..\Day_Four\bee.jpg" alt="">
+                                    <div class="slide-text">
+                                        <h3>this is bee here..</h3>
+                                        <p>This is the bee description</p>
+                                    </div>    
+                                </div>
+                                <div class="slide">
+                                    <img src="..\Day_Four\duck.jpg" alt="">
+                                    <div class="slide-text">
+                                        <h3>this is duck here..</h3>
+                                        <p>This is the duck description</p>
+                                    </div>    
+                                </div>    
+                                                
+                        </div>
+						
+						
+					</div><!-- /col -->
+					
+					<!-- col -->
+					<div class="col col-md-4 sidebar">
+						<h3>Sidebar Heading</h3>
+						<p>Sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						
+						<p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+					</div><!-- /col -->
+					
+				</div><!-- /row -->
+				
+			</div><!-- /container -->
+			
+		</div>
+
+		<footer>
+			<p>&copy; 2014 - This is the footer.</p>
+		</footer>
+		
+		
+	</body>
+	
+</html>
